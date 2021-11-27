@@ -8,6 +8,10 @@
     margin: 0 auto;
     padding: 0 auto;
 }
+
+ul {
+    padding: 0px!important;
+}
 .menu-principal {
     width: 100%;
     background-color: #252323;
@@ -36,7 +40,13 @@ main{
 .header-2 {
     padding-bottom: 65px;
     background-color: white;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls{
+    height: 80px;
     border-bottom: 3px solid #efefef;
 }
 
@@ -64,6 +74,23 @@ main{
     float: left;
 }
 .busca {
+    text-align: center;
     width: 30%;
     float: right;
+}
+
+.busca input{
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    margin-right: 37px;
+    height: 25px;
+    padding: 7px;
+    width: 160px;
+}
+
+.col-100 {
+    width: 100%;
+    float: right;
+    position: relative;
 }
