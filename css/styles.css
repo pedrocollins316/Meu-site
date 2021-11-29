@@ -51,11 +51,13 @@ main{
 }
 
 .menu ul li {
-    margin-top: 20px;
+    margin-top: -5px;
     display: inline-block;
     color: #8b8b8b;
     margin-left: 1px;
+    height: 41px;
 }
+
 .menu ul li a{
     margin: 18px;
     padding: 2px;
@@ -63,10 +65,14 @@ main{
     color: #8b8b8b;
     font-size: 18px;
     text-transform: uppercase;
+    height: 39px;
+     display: inline-block;
 }
 
 .menu ul li a:hover{
    color: rgb(208,63,251);
+   border-bottom: 4px solid purple;
+  
 }
 
 .menu {
