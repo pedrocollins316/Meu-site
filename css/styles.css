@@ -71,7 +71,7 @@ main{
 
 .menu ul li a:hover{
    color: rgb(208,63,251);
-   border-bottom: 4px solid purple;
+   border-bottom: 4px solid rgb(180, 58, 160);
   
 }
 
@@ -99,4 +99,33 @@ main{
     width: 100%;
     float: right;
     position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 35%;
+    left: 14%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 35%;
+    right: 14%;
+}
+
+.slider-principal- {
+    width: 100%!important;
 }
